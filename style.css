@@ -1,0 +1,133 @@
+
+* .{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Barlow", sans-serif;
+}
+
+#nav-container {
+    width: 100%;
+    padding: 15px 30px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.menu ul li {
+    color: #67727d;
+    font-weight: 500;
+    margin-right: 30px;
+    text-transform: uppercase;
+    transition: all ease 0.3s;
+    font-size: 14px;
+}
+
+.menu ul li:hover {
+    color: #f2295b;
+    cursor: pointer;
+}
+
+.menu .basket {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.menu .basket img {
+    width: 25px;
+    margin-left: 15px;
+}
+
+.menu .basket p {
+    font-size: 17px;
+    font-weight: 700;
+    color: #f2295b;
+}
+
+.burger img {
+    width: 0;
+}
+
+
+/* hero */
+
+#hero-section {
+    width: 100%;
+    padding: 0 50px 0 100px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+}
+
+.hero .left {
+    width: 50%;
+}
+
+.hero .left>* {
+    margin-bottom: 20px;
+}
+
+.hero .left h1 {
+    font-size: 94px;
+    font-weight: 600;
+    color: #415161;
+    line-height: 7vw;
+    font-family: "Teko", sans-serif;
+}
+
+.hero .left p {
+    color: #67727d;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 31px;
+}
+
+.hero .left .button {
+    background-color: white;
+    border: 2px solid #415161;
+    border-left: 0;
+    padding: 15px;
+    width: 30%;
+    color: #415161;
+    margin-top: 20px;
+}
+
+.hero .left button {
+    background-color: transparent;
+    border: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.hero .left .button i{
+    margin-left: 20px;
+    color: #415161;
+}
+
+.hero .right {
+    width: 50%;
+}
